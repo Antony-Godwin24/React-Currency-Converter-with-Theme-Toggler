@@ -1,0 +1,235 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:'poppins';
+}
+
+#light{
+  background-color:lightcyan;
+  color: black;
+}
+
+#dark{
+  background-color: black;
+  color:white;
+}
+
+#light h1,button{
+  background-color:lightcyan;
+  color:black;
+}
+
+#dark h1{
+  background-color: black;
+  color: azure;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  height:90px;
+  padding:10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:1000;
+}
+
+.nav h1{
+  font-size: 50px;
+  padding-left: 10px;
+}
+
+#light button {
+  background-color: darkblue;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+#light button:hover {
+  background-color: black;
+  color: white;
+}
+
+#dark button {
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+#dark button:hover {
+  background-color: black;
+  color: azure;
+  border: 2px solid azure;
+}
+
+.hme{
+  padding: 2px;
+  border: 0px solid black;
+  height:1000px;
+  margin-bottom: 180px;
+}
+
+.head{
+  margin-top: 280px;
+}
+
+.head h1{
+  font-size: 80px;
+}
+
+.head h1:hover{
+  font-size: 100px;
+  transition:all 1.0s;
+}
+
+.dark .hme, .dark .head, .dark .head h1,.dark .head p{
+  background-color:darkgray;
+}
+
+
+.head p{
+  font-size: 20px;
+}
+
+.content{
+  width:50%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 20px;
+  margin-top: 250px;
+  background-color: azure;
+}
+
+.dropdown{
+  background-color: azure;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20%;
+}
+
+#fromMenu{
+  border: 2px solid black;
+  background-color:lightblue;
+  color: black;
+}
+
+#fromMenu:hover{
+  background-color: darkblue;
+  color:white;
+}
+
+#toMenu{
+  border: 2px solid black;
+  background-color: lightblue;
+  color: black;
+}
+
+#toMenu:hover{
+  background-color: darkblue;
+  color:white;
+}
+
+.btn{
+  width:100%;
+}
+
+.btn input{
+  width:50%;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  font-weight: bolder;
+  background-color: azure;
+}
+
+
+.btn button{
+  width:80px;
+  text-align: center;
+}
+
+#frm{
+  background-color: azure;
+}
+
+#frm:focus{
+  background-color: azure;
+  color: black;
+}
+
+#t{
+  background-color: azure;
+}
+
+.result{
+  background-color: azure;
+  width:30%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#non{
+  display: none;
+}
+
+#conv{
+  margin-top: 10px;
+  transition: all 1.3s;
+}
+
+body.light{
+  background-color: aqua;
+  color: black;
+}
+
+body.dark{
+  background-color:darkgray;
+  color:white;
+}
+
+/* #light .Footer h1,#light .Footer p{
+  background-color: lightcyan;
+  height: 100px;
+} */
+
+.Footer{
+  height:90px;
+}
+
+.Footer h1{
+  font-size: 50px;
+}
+
+#light  p{
+  background-color: lightcyan;
+}
+
+#dark p{
+  background-color: black;
+}
+
+#light a{
+  background-color: lightcyan;
+}
+
+#dark a{
+  background-color: black;
+}
